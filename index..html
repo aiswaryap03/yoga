@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoGa</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Dynalight&family=Italianno&family=Libertinus+Mono&family=Manufacturing+Consent&family=Mea+Culpa&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Romanesco&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=Xanh+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            /* padding: 0;
+        margin: 0; */
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+        <nav class="!bg-green-600  fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-3 p-4">
+                <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="https://pngimg.com/d/yoga_PNG64.png" class="h-8" alt="Flowbite Logo">
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-gray-50">Get Start
+                        Yoga</span>
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login
+                        <i class="fa-solid fa-user"></i></button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-right p-2 w-10 h-10 justify-end text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg !bg-green-600 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                                class="text-gray-50 hover:text-gray-900 font-bold border border-gray-100 p-3 rounded bg-transparent hover:bg-green-100"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-gray-50 hover:text-gray-900 font-bold border border-gray-100 p-3 rounded bg-transparent hover:bg-green-100">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-gray-50 hover:text-gray-900 font-bold border border-gray-100 p-3 rounded bg-transparent hover:bg-green-100">Services</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-gray-50 hover:text-gray-900 font-bold border border-gray-100 p-3 rounded bg-transparent hover:bg-green-100">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="h-screen bg-[url(https://us.images.westend61.de/0001893326pw/yoga-woman-practicing-outdoors-doing-a-bridge-pose-green-natural-background-yoga-woman-doing-bridge-pose-natural-green-background-INGF12175.jpg)]
+        bg-no-repeat bg-cover bg-bottom flex items-left justify-left pt-80 pb-70 px-10">
+            <div class="text-center">
+                <!-- border border-gray-100 rounded shadow p-10  mt-15 -->
+                <h1 class="text-4xl text-gray-200 font-bold">Find your Inner Peace</h1>
+                <p class="text-gray-100">Book a meditation or yoga session today</p>
+                <button
+                    class="bg-green-700 text-white p-3 my-5 border border-gray-100 rounded-full hover:bg-green-100 hover:text-green-600">Book
+                    now</button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-green-100">
+
+        <h1 class="text-center text-3xl py-4 font-bold">About</h1>
+        <div class="flex">
+            <div class="w-1/2">
+                <h1 class="text-center text-3xl my-4">Yoga</h1>
+                <p class="text-justify px-20">Yoga is a time-honored practice that originated in ancient India over
+                    5,000 years ago and has evolved into a globally respected discipline for physical, mental, and
+                    spiritual well-being. It is much more than a series of stretches or exercises—yoga is a lifestyle
+                    that emphasizes the connection between the mind, body, and soul. At its core, yoga involves the
+                    practice of asanas (physical postures), pranayama (breathing techniques), and dhyana (meditation),
+                    each contributing uniquely to health and inner peace. The physical postures help improve
+                    flexibility, balance, muscle tone, and posture, while also increasing energy levels and circulation.
+                    Breathing techniques calm the nervous system, enhance lung capacity, and reduce anxiety. Meditation
+                    fosters mindfulness, emotional stability, and a deep sense of inner calm.
+
+                    Yoga is inclusive and adaptable, making it suitable for people of all ages, fitness levels, and
+                    backgrounds. It has been scientifically proven to help reduce stress, lower blood pressure, boost
+                    immune function, and aid in the management of chronic conditions such as anxiety, depression,
+                    diabetes, and arthritis. Beyond the physical benefits, yoga teaches discipline, patience, and the
+                    importance of living in the present moment. It encourages a deeper awareness of one's thoughts,
+                    actions, and emotions, guiding practitioners toward a more compassionate, mindful, and meaningful
+                    life. Whether practiced for spiritual growth, fitness, stress relief, or healing, yoga offers a
+                    transformative journey toward inner harmony and holistic well-being.</p>
+            </div>
+            <div class="w-1/2">
+                <img src="https://st5.depositphotos.com/6644020/64629/i/450/depositphotos_646296878-stock-photo-meditation-water-hands-prayer-position.jpg"
+                    alt="" class="rounded-full mx-8 w-110 h-110 ms-40 mt-15 shadow-xl">
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-green-100">
+        <h1 class="text-center pt-40 text-3xl font-bold">Watch Demo Session</h1>
+        <div class="px-98 pt-20">
+            <iframe width="690" height="415" src="https://www.youtube.com/embed/CM43AZaRXNw?si=F-EzOh7cOxwkS6Yk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="bg-green-100">
+        <h2 class="pt-20 text-center text-3xl font-bold">Our Classess</h2>
+        <div class="flex pt-10">
+            <div class="w-1/4 pt-10 px-10 hover:scale-105 cursor-pointer transition duration-300">
+                <a href="https://www.youtube.com/watch?v=3X0hEHop8ec"><img
+                        src="https://img.freepik.com/premium-photo/woman-practices-yoga-background-green-trees-grass_210733-184.jpg"
+                        alt="" class="rounded-full w-70 h-70"></a>
+                <h3 class="text-center pt-4 font-bold text-2xl">Beginner Yoga</h3>
+            </div>
+
+
+            <div class="w-1/4 pt-10 px-10 hover:scale-105 cursor-pointer transition duration-300">
+                <a href="https://www.youtube.com/watch?v=8TuRYV71Rgo"><img
+                        src="https://img.freepik.com/premium-photo/man-practicing-mindfulness-meditation-peaceful-natural-environment_457222-2290.jpg"
+                        alt="" class="rounded-full w-70 h-70"></a>
+                <h3 class="text-center pt-4 font-bold text-2xl">Meditation Sessions</h3>
+            </div>
+            <div class="w-1/4 pt-10 px-10 hover:scale-105 cursor-pointer transition duration-300">
+                <a href="https://www.youtube.com/watch?v=OWOqIzMhzT4"><img
+                        src="https://img.freepik.com/premium-photo/young-woman-with-stretching-body-practicing-yoga-performing-eightangle-pose-outside-park-evening-background-sunlight-female-doing-advanced-yoga-exercises-outdoors-green-grass_482921-5568.jpg"
+                        alt="" class="rounded-full w-70 h-70"></a>
+                <h3 class="text-center pt-4 font-bold text-2xl">Advanced Yoga</h3>
+            </div>
+            <div class="w-1/4 pt-10 px-10 hover:scale-105 cursor-pointer transition duration-300">
+                <a href="https://www.youtube.com/watch?v=d4S4twjeWTs"><img
+                        src="https://img.freepik.com/premium-photo/wellness-concept-health-mindfulness-mental-health-happiness-financial-stability-growth-icons-green-natural-background-balance-integration-achieving-overall-wellbeing_1016700-8031.jpg"
+                        alt="" class="rounded-full w-70 h-70"></a>
+                <h3 class="text-center pt-4 font-bold text-2xl">Mindfulness Training</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-green-100 pt-6">
+        <h2 class="text-center pt-20 text-3xl font-bold pb-10">Book a Session</h2>
+        <!-- <div class="flex">
+       <div class="w-2/5 pt-20 px-20">
+       <img src="https://pngimg.com/d/yoga_PNG64.png" alt="" class="h-120 w-120">
+       </div>
+       <div class="w-2/5 pt-40 px-20">
+          <div class="bg-green-900 text-gray-100 w-6/5 rounded ms-5">
+        <h1 class="text-center text-2xl font-bold">Book Now</h1>
+        <p class="mx-4 my-2 font-semibold">Name</p>
+        <input class="bg-gray-100 text-neutral-800 mb-5 mx-4 w-[450px] h-[30px] rounded ps-3" type="text" placeholder="Enter Your Name">
+        <p class="mx-4 mb-2 font-semibold">Email</p>
+        <input class="bg-neutral-50 text-neutral-800 mb-5 mx-4 w-[450px] h-[30px] rounded ps-3" type="text" placeholder="Enter Your Email">
+        <p class="mx-4 mb-2 font-semibold">Select Session</p>
+        <select class="text-neutral-800 bg-neutral-50 mb-5 mx-4 w-[450px] h-[30px] rounded ps-10" name="" id="">
+          <option value="" class="" disabled="" selected="" hidden="">
+            -- Please choose an option --
+          </option>
+          <option value="hatha">Beginner Yoga</option>
+          <option value="vinyasa">Meditation Sessions</option>
+          <option value="yin">Advanced Yoga</option>
+          <option value="kundalini">Mindfulness Training</option>
+        </select>
+        <button class="bg-neutral-950/40 border border-neutral-50 mb-5 mx-4 w-[300px] h-[30px] rounded hover:bg-neutral-50 hover:text-neutral-950">
+          Book Now
+        </button>
+      </div>
+       </div>
+       </div> -->
+        <div class="h-screen bg-[url(https://media.istockphoto.com/id/155600202/photo/yoga.jpg?s=612x612&w=0&k=20&c=hhYPbS7dsPSrY6HI6zb6c7Wew6pshbs2ZtIkkBVhgK4=)]
+        bg-no-repeat bg-cover bg-bottom flex items-left justify-left pt-20 pb-60 px-10">
+            <div class="bg-neutral-50/10 text-neutral-50 w-1/4 rounded ms-5">
+                <h1 class="text-center text-2xl font-bold">Book Now</h1>
+                <p class="mx-4 my-2 font-semibold">Name</p>
+                <input class="bg-neutral-50 text-neutral-800 mb-5 mx-4 w-[300px] h-[30px] rounded ps-3" type="text"
+                    placeholder="Enter Your Name">
+                <p class="mx-4 mb-2 font-semibold">Email</p>
+                <input class="bg-neutral-50 text-neutral-800 mb-5 mx-4 w-[300px] h-[30px] rounded ps-3" type="text"
+                    placeholder="Enter Your Email">
+                <p class="mx-4 mb-2 font-semibold">Select Session</p>
+                <select class="text-neutral-800 bg-neutral-50 mb-5 mx-4 w-[300px] h-[30px] rounded ps-10" name="" id="">
+                    <option value="" class="" disabled="" selected="" hidden="">
+                        -- Please choose an option --
+                    </option>
+                    <option value="hatha">Beginner Yoga</option>
+                    <option value="vinyasa">Meditation Sessions</option>
+                    <option value="yin">Advanced Yoga</option>
+                    <option value="kundalini">Mindfulness Training</option>
+                </select>
+                <button
+                    class="bg-neutral-950/40 border border-neutral-50 mb-5 mx-4 w-[300px] h-[30px] rounded hover:bg-neutral-50 hover:text-neutral-950">
+                    Book Now
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-green-100">
+        <div class="text-center pt-10 text-3xl font-bold">
+            <h1>Meet Your</h1>
+            <h1>Habbit Building Trainers</h1>
+            <div class="flex px-5 pt-10 pb-15">
+                <div class="w-1/4 mx-5">
+                    <figure class="max-w-lg">
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="https://media.istockphoto.com/id/1470234996/photo/woman-sitting-in-a-fitness-studio-with-her-yoga-class.jpg?s=612x612&w=0&k=20&c=PW0frpWedwpoux9hNCuVuzYYLsRSQxo0FtLtPYOk14c="
+                            alt="image description">
+                        <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Manushi Rav
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="w-1/4 mx-5">
+                    <figure class="max-w-lg">
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="https://media.istockphoto.com/id/1483989790/photo/adult-indian-male-yoga-instructor-smiling-at-the-camera-and-holding-a-yoga-mat-under-his-arm.jpg?s=612x612&w=0&k=20&c=vZZ1--vZ_LF612IrI7jXBBxdG5fExnOO3rYu-uHAtiM="
+                            alt="image description">
+                        <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Tej Ghan
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="w-1/4 mx-5">
+                    <figure class="max-w-lg">
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="https://images.squarespace-cdn.com/content/v1/5c5efdd601232cd65fe2086b/1617981399890-ZG98O5STN3C4SLB644E5/private%2Byoga%2Btherapy%2Bsmall.jpg?format=1000w"
+                            alt="image description">
+                        <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Sampritha K khn
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="w-1/4 mx-5">
+                    <figure class="max-w-lg">
+                        <img class="h-auto max-w-full rounded-lg"
+                            src="https://serviceninjas.in/wp-content/uploads/2021/03/yoga-trainer-delhi.jpeg"
+                            alt="image description">
+                        <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Varn
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-green-700 text-gray-900 px-6 py-12">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm mb-10">
+                <div>
+                    <h4 class="text-3xl font-semibold mb-2">About Us</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline text-lg">Contact Us</a></li>
+                        <li><a href="#" class="hover:underline text-lg">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold mb-2">Classes</h4>
+                    <ul class="space-y-1">
+                        <li>
+                            <a href="#" class="hover:underline text-lg"> Live Yoga Classes</a>
+                        </li>
+                        <li><a href="#" class="hover:underline text-lg">Class Previews</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold mb-2">Blog</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline text-lg">Help Center</a></li>
+                        <li><a href="#" class="hover:underline text-lg">Mobile Apps</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2 text-2xl">Teacher Training</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline text-lg">Events</a></li>
+                        <li><a href="#" class="hover:underline text-lg">ADA Notice</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4">
+                    Join Our Community
+                </h2>
+                <form class="flex flex-col sm:flex-row max-w-xl gap-4">
+                    <input class="bg-neutral-50 text-neutral-950 w-[300px] px-4 rounded" type="email"
+                        placeholder="Enter Your E-mail Address" required="">
+                    <button type="submit"
+                        class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-medium transition">
+                        Submit
+                    </button>
+                </form>
+            </div>
+
+        </div>
+        <span class="block text-lg text-gray-900 sm:text-center text-gray-100">© 2023 <a
+                href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+    </footer>
+</body>
+
+</html>
